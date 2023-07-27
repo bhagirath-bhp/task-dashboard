@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-.sidebar{
+.sidebar, .form-container{
     height: 93.8vh;
 }
 .sidebar::-webkit-scrollbar, .main-content::-webkit-scrollbar {

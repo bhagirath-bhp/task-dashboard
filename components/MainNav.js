@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainNav = () => {
     return (
-        <div className=" w-cal(100vw-0%) pl-2 pr-2 mt-4">
+        <div className=" pl-2 pr-2 mt-4">
             <nav className="flex justify-between">
                 <ul className="flex align-center justify-center h-full">
                     <h3 className="font-bold">Add new post</h3>

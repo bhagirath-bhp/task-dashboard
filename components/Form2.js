@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form2 = () => {
     return (
-        <div className="flex-col justify-center p-5 bg-white">
+        <div className="flex-col justify-center rounded p-5 bg-white w-full">
             <div className="header">
                 <h3 className="text-xl font-bold">Form Title</h3>
                 <p className="text-xs text-neutral-500">Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue enim.</p>
@@ -17,6 +17,41 @@ const Form2 = () => {
                     <p className="lh-2 block sm:inline mx-2 my-auto" >Turkish</p>
                 </button>
             </div>
+            <form action="" className='w-full'>
+                <div className='my-3'>
+                    <label for='ip1' className='text-xs outline-none block sm:inline'>Label Title</label>
+                    <input type="text" id='ip1' className='border outline-none rounded block w-full pl-3 placeholder:text-xs' placeholder='Placeholder Content'/>
+                </div>
+                <div className='flex justify-center my-3 w-full'>
+                    <div className='w-2/6'>
+                        <label for='ip2' className='text-xs outline-none block'>Label Title</label>
+                        <select className='border text-gray-400 outline-none rounded px-3 placeholder:text-xs text-xs h-6 w-11/12' placeholder='Placeholder Content' id='ip2'>
+                            <option value="choose">choose</option>
+                        </select>
+                    </div>
+                    <div className='w-2/6'>
+                        <label for='ip3' className='text-xs outline-none block'>Label Title</label>
+                        <input type="text" id='ip3' className='border outline-none rounded pl-3 placeholder:text-xs w-11/12' placeholder='Placeholder Content'/>
+                    </div>
+                    <div className='w-2/6'>
+                        <label for='ip4' className='text-xs outline-none block'>Label Title</label>
+                        <input type="text" id='ip4' className='border outline-none rounded pl-3 placeholder:text-xs w-11/12' placeholder='Placeholder Content'/>
+                    </div>
+                </div>
+                <div className='flex my-3'>
+                    <div className='w-1/2'>
+                        <label for='ip4' className='text-xs outline-none block'>Label Title</label>
+                        <input type="text" id='ip4' className='border outline-none rounded  pl-3 placeholder:text-xs w-11/12' placeholder='Placeholder Content'/>
+                    </div>
+                    <div className='w-1/2'>
+                        <label for='ip4' className='text-xs outline-none block'>Label Title</label>
+                        <input type="text" id='ip4' className='border outline-none rounded pl-3 placeholder:text-xs w-11/12' placeholder='Placeholder Content'/>
+                    </div>
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10" className='border outline-none rounded placeholder:text-xs'></textarea>
+                </div>
+            </form>
         </div>
     )
 }

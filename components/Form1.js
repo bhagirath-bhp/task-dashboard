@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form1 = () => {
     return (
-        <div className="flex-col justify-center w-full p-5 bg-white">
+        <div className="flex-col justify-center w-full p-5 my-5 rounded bg-white">
             <div className="header">
                 <h3 className="text-xl font-bold">Form Title</h3>
                 <p className="text-xs text-neutral-500">Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue enim.</p>

@@ -10,14 +10,14 @@ import React from 'react'
 
 const Dashboard = () => {
     return (
-        <div className="h-screen  flex-col justify-center align-center">
+        <div className="h-screen flex-col justify-center align-center overflow-hidden">
             <Header />
             <div className="flex ">
                 <Sidebar />
 
-                <div className="flex-col w-full h-full justify-center align-center bg-neutral-100">
+                <div className=" form-container flex-col w-full justify-center align-center bg-neutral-100 overflow-y-scroll overflow-x-hidden">
                     <MainNav />
-                    <div className="main-content flex-col w-full h-full justify-center align-center overflow-y-scroll overflow-x-hidden">
+                    <div className="main-content flex-col w-full h-full justify-center align-center px-10">
                         <Main />
                         <Form1 />
                         <Form2 />
