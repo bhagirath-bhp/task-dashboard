@@ -14,7 +14,7 @@ const Dashboard = () => {
             <div className="flex ">
                 <Sidebar />
 
-                <div className="flex-col w-full h-full justify-center align-center">
+                <div className="flex-col w-full h-full justify-center align-center bg-neutral-100">
                     <MainNav />
                     <div className="main-content flex-col w-full h-full justify-center align-center overflow-y-scroll overflow-x-hidden h-3/6">
                         <Main />

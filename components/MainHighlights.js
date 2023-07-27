@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainHighlights = () => {
   return (
-    <div className="flex justify-evenly w-full rounded bg-neutral-100 py-4">
+    <div className="flex justify-evenly w-full rounded py-4">
         <div className="flex p-7 pr-20 rounded w-fit bg-white">
             <img src="/shop.svg" alt="" />
             <div className="ml-3">
