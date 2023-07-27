@@ -10,7 +10,7 @@ import React from 'react'
 
 const Dashboard = () => {
     return (
-        <div className="h-screen w-full flex-col justify-center align-center">
+        <div className="h-screen  flex-col justify-center align-center">
             <Header />
             <div className="flex ">
                 <Sidebar />
